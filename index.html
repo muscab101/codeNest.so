@@ -8,7 +8,7 @@
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>CodeNest.so</title>
 </head>
-<body>
+<body class=" bg-[#fcfbfb]">
     <div class="sidebar">
         <div class="logo_content">
             <div class="logo">
@@ -28,7 +28,7 @@
             </li>
 
             <li>
-                <a href="" >
+                <a href="" class="show" >
                     <i class="fi fi-rr-apps"></i>
                     <span class="links_name">Dashboard</span>
                 </a>
@@ -111,8 +111,36 @@
     
 
 
-    <div class="home_content">
-        <div class="text">Home Page</div>
+    <div id="home_content" >
+        <div class="text">
+            <img class="absolute right-0 top-0 h-[400px]" src="imgs/gradient.png" alt="">
+        </div>
+
+        <div class="flex justify-center mt-[80px]">
+            <div class="bg-[#0c0b14] lg:w-[60%] lg:h-[40vh] w-[90%] h-[44vh] rounded-xl ml-[70px] relative">
+                <div class=" r " style="margin-left: 20px; margin-top: 40px;">
+                <p class=" text-gray-50 text-[13px]">Online Course</p>
+                <h1 class=" text-white text-[1.2rem] font-semibold">Sharpen  Your Skills With <br> Professional Online Courses</h1>
+                <div class=" flex items-center relative">
+                <button class="text-[#0c0b14] text-[13px] bg-white w-[120px] h-[35px] font-semibold rounded-[99px] text-start hover:bg-gray-200  duration-300 ease-in-out" style="padding-left: 13px; margin-top: 11px; padding-top: 5px;">Join Now</button>
+                <i style=" position: absolute; left: 77px; top: 20px; font-size: 11px; width: 20px; height: 20px; border-radius: 50%; background-color: #0c0b14; color: white; margin-bottom: 10px; padding-top: 4px; padding-left: 4px;" class="fi fi-rr-play"></i>
+                </div>
+                <img src="imgs/Star 1.png" alt="" class=" lg:w-[90px] absolute lg:right-21 lg:top-[60px] right-2 top-0 w-[50px]">
+                <img src="imgs/Star 3.png" alt="" class="absolute lg:right-5 lg:top-5">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- <div class=" flex justify-center gap-[1.5rem] pt-[60px]">
+            <div class=" flex gap-[1.5rem] ">
+                <div class="bg-white w-[260px] h-[60vh] shadow-sm rounded "></div>
+                <div class="bg-white w-[260px] h-[60vh] shadow-sm rounded "></div>
+            </div>
+        </div> -->
     </div>
     <script src="app.js"></script>
 </body>

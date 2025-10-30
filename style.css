@@ -145,14 +145,14 @@ body {
 
 
 
-.sidebar ul li .fi-rr-search:hover {
-    background: #fff;
+/* .sidebar ul li .fi-rr-search:hover {
+    
     color: #1d1b31;
-}
+} */
 
 
 .sidebar ul li a{
-    color: #fff;
+    color: #bebebe;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -163,6 +163,10 @@ body {
     margin-top: 10px;
     white-space: nowrap;
     
+}
+
+.sidebar ul li .show {
+    color: white;
 }
 
 .sidebar ul li a:hover {
@@ -268,22 +272,24 @@ body {
    background: none;
 }
 
-.home_content{
+#home_content{
     position: absolute;
     height: 100%;
     width: calc(100% - 78px);
     left: 78px;
     transition: all 0.5s ease;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.home_content .text {
+#home_content .text {
     font-size: 25px;
     font-weight: 500;
     color: #1d1b31;
-    margin: 12px;
+    
 }
 
-.sidebar.active ~ .home_content {
+.sidebar.active ~ #home_content {
     width: calc(100% - 240px);
     left: 240px;
 }
